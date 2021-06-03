@@ -33,7 +33,7 @@ function Nav({themeSetter,theme}) {
         <div className="header">
             <div className="logo-nav">
                 
-                <a className='left-logo' href="#home" onClick={()=>{closeMenu();navigate("#home")}}>Pranavdhar</a>
+                <a className='left-logo' href="#home" onClick={()=>{closeMenu();navigate("#home")}}>SUSHMANTH</a>
                 
                 <div className='right-navigations'>
 
