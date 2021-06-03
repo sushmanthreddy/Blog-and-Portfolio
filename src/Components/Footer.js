@@ -11,10 +11,10 @@ function Footer() {
         <div className='footer'>
             <p className="footer-title">Pranavdhar</p>
             <div className="footer-social">
-                <a href="https://www.linkedin.com/in/sai-pranavdhar-reddy-nalamalapu-038104206/" className="footer-icon"><LinkedInIcon/></a>
+                <a href="https://www.linkedin.com/in/sushmanth-reddy-mereddy-b942811b1/" className="footer-icon"><LinkedInIcon/></a>
                 <a href="#home" className="footer-icon"><TelegramIcon/></a>
-                <a href="https://twitter.com/Pranavdhar8" className="footer-icon"><TwitterIcon/></a>
-                <a href="https://github.com/iampranavdhar" className="footer-icon"><GitHubIcon/></a>
+                <a href="https://twitter.com/Sushmanthredd15" className="footer-icon"><TwitterIcon/></a>
+                <a href="https://github.com/sushmanthreddy" className="footer-icon"><GitHubIcon/></a>
             </div>
             <p className='footer-copyright'>&#169; 2020 copyright all right reserved</p>
         </div>

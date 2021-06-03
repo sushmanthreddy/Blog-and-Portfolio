@@ -6,10 +6,10 @@ function Stats() {
     const [repos,setRepos] = useState([])
 
     useEffect(() => {
-        fetch('https://api.github.com/users/iampranavdhar')
+        fetch('https://api.github.com/users/sushmanthreddy')
             .then(response => response.json())
             .then(result => setGithub(result));
-        fetch('https://api.github.com/users/iampranavdhar/repos')
+        fetch('https://api.github.com/users/sushmanthreddy/repos')
             .then(response => response.json())
             .then(repos => setRepos(repos))
     },[])

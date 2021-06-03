@@ -84,9 +84,7 @@ function App() {
   
   const [theme,setTheme] = useState(historyTheme);
 
-  //Here we are setting up the theme to the storage to store it for next visit.
-  //And this should run as soon as theme variable changes so that will update
-  //the storage. 
+
 
   useEffect(() => {
     storage.setItem('theme', JSON.stringify(theme));
@@ -103,9 +101,6 @@ function App() {
     <Router>
     <div className="App">
 
-      {/* I had done the  dark theme by giving on click functionality 
-      in the Nav Component and giving it the function from here by props.
-      And theme prop is for giving it the giving that moon and moon and sun icons */}
 
       <Nav themeSetter={() =>{themeToggler()}} theme={theme}/>
         <Switch>
