@@ -13,9 +13,9 @@ function Home() {
                 <h1 className="home-title">
                     Hey!,<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" alt='' width="50px"></img>
                     <br />
-                    I'am <span>SUSHMANTH REDDY</span>
+                    I'am <span>SUSHMANTH</span>
                     <br />
-                    COMPETITIVE PROGRAMMER
+                    PROBLEM SOLVER
                 </h1>
                 <div className="home-img">
                     <img src="assets/home.png" alt=""></img>
